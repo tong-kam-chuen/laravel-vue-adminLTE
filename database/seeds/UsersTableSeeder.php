@@ -13,22 +13,122 @@ class UsersTableSeeder extends Seeder
     {
         \App\User::insert([
            [
-               'name' => "Akande Salami",
-               'email' => "admin@laravel",
+               'name' => "Alexandar Pierce",
+               'email' => "alexandar@laravel",
                'type' => "admin",
-               'bio' => "Administrator",
+               'bio' => "Pierce",
                'photo' => 'profile.png',
-               'password' => bcrypt('lara98765'),
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Brad Diesel",
+               'email' => "diesel@laravel",
+               'type' => "author",
+               'bio' => "Diesel",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Salami Pierce",
+               'email' => "pierce@laravel",
+               'type' => "user",
+               'bio' => "Pierce",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Nora Silvester",
+               'email' => "nora@laravel",
+               'type' => "admin",
+               'bio' => "Silvester",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Jonathan Burke",
+               'email' => "burke@laravel",
+               'type' => "author",
+               'bio' => "Burke",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Sarah Ross",
+               'email' => "sarah@laravel",
+               'type' => "author",
+               'bio' => "Sarah Ross",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Adam Jones",
+               'email' => "adam@laravel",
+               'type' => "user",
+               'bio' => "Jones",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Bay White",
+               'email' => "white@laravel",
+               'type' => "author",
+               'bio' => "White",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Mina Black",
+               'email' => "mina@laravel",
+               'type' => "admin",
+               'bio' => "Black",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Nina Mcintire",
+               'email' => "nina@laravel",
+               'type' => "user",
+               'bio' => "Mcintire",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
+               'created_at' => \Carbon\Carbon::now(),
+               'updated_at' => \Carbon\Carbon::now()
+           ],
+           [
+               'name' => "Akande Salami",
+               'email' => "salami@laravel",
+               'type' => "admin",
+               'bio' => "Akande",
+               'photo' => 'profile.png',
+               'password' => bcrypt('auth1234'),
                'created_at' => \Carbon\Carbon::now(),
                'updated_at' => \Carbon\Carbon::now()
            ],
            [
                'name' => "Jeff Doe",
-               'email' => "user@laravel",
+               'email' => "doe@laravel",
                'type' => "user",
-               'bio' => "Standard User",
+               'bio' => "Jeff",
                'photo' => 'profile.png',
-               'password' => bcrypt('lara98765'),
+               'password' => bcrypt('auth1234'),
                'created_at' => \Carbon\Carbon::now(),
                'updated_at' => \Carbon\Carbon::now()
            ]
